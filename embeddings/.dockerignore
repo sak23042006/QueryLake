@@ -1,0 +1,45 @@
+# ============================
+# Embeddings .dockerignore
+# Optimizes build context for embeddings pipeline
+# ============================
+
+# Runtime data (volume-mounted)
+local_data/
+*.faiss
+*.parquet
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Environment
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Documentation
+*.md
+!README.md
+
+# Docker
+Dockerfile
+docker-compose.yml

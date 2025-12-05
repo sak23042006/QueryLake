@@ -1,0 +1,9 @@
+/.bsp/
+target/
+data/raw/*.parquet
+data/raw/*.delta
+**/_delta_log/
+**/*.crc
+**/*.parquet
+data
+.env
